@@ -1,3 +1,5 @@
+//Given code...
+
 const game = {
 	title: 'Guess the Number!',
 	biggestNum: 100,
@@ -5,10 +7,8 @@ const game = {
 	secretNum: null,
 	prevGuesses: [],
 	play: function () {
-		this.secretNum =
-			Math.floor(Math.random() * (this.biggestNum - this.smallestNum + 1)) +
-			this.smallestNum
-	
+		this.secretNum = Math.floor(Math.random() * (this.biggestNum - this.smallestNum + 1)) + this.smallestNum
+//given code^^^	
 //What is the guess?
 //What happens when a guess is entered?
 
